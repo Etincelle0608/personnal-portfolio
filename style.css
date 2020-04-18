@@ -1,0 +1,56 @@
+body {
+    background-color: rgba(19, 20, 23, 0.9);
+    height: auto;
+    min-height: 120vh;
+    font-size: 20px;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body, .navbar-element {
+    margin: 0px;
+
+}
+#navbar {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: red;
+    height: 8%;
+
+}
+.navbar-element {
+    border-bottom: 2px solid rgba(19, 200, 230, 1);
+    display: flex;
+}
+/* the portfolio should have at least one media query*/
+@media ( ) {
+
+}
+
+/*the height of the welcome page should be equal to the height of the viewport*/
+a {
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 0em 1em; 
+    /*align-self: center;*/
+    text-align: center;
+    margin: 0px;
+    border: 100%;
+
+}
+a:hover {
+    background-color: rgba(19, 20, 23, 0.9);
+}
+#photo-logo  {
+    max-width: 3em;
+    max-height: auto;
+}
+#welcome-section {
+    overflow: auto;
+    background-color: silver;
+    height: 100vh;
+    max-width: auto;
+
+}
